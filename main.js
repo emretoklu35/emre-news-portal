@@ -1,5 +1,5 @@
 // --- NEWS SLIDER (10 items) ---
-fetch("https://gist.githubusercontent.com/emretoklu35/45d32321645f63569a716579560bcbe3/raw/5da8cf2c7e0baca2823eab7a80cadc58626ae786/haberler.json")  .then(res => res.json())
+fetch("https://gist.githubusercontent.com/emretoklu35/45d32321645f63569a716579560bcbe3/raw/2561ea5a7277b964b19a3bda10ad0a94cc804329/haberler.json")  .then(res => res.json())
   .then(data => {
     const carouselInner = document.getElementById("carouselInner");
     const indicators = document.getElementById("carouselIndicators");
