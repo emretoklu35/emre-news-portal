@@ -18,11 +18,24 @@ This is a responsive news portal project developed as part of the **SE3355 Web D
 - HTML5
 - CSS3 + Bootstrap 5
 - JavaScript (Fetch API)
-- Mock API (Mocky.io)
+- Mock API (https://gist.github.com)
 
 ## Live Website
 
 🔗 [View Live Site](https://emretoklu35.github.io/emre-news-portal/)
+
+## 📦 Mock API Endpoints
+
+Below are the mock API endpoints used in this project. All data is retrieved dynamically in `main.js` using the Fetch API.
+
+- [📰 News Slider (10 items)](https://gist.github.com/emretoklu35/45d32321645f63569a716579560bcbe3)
+- [🧍 Static Headline News](https://gist.github.com/emretoklu35/6e819f735a179d92b66f97d1445a6dfe)
+- [🌤️ Weather Forecast (5 Days)](https://gist.github.com/emretoklu35/55da7de7f5d8fa95653a04dd65bb2374)
+- [💸 Finance Data](https://gist.github.com/emretoklu35/61a9432106a22999490424d35debd74d)
+
+> All APIs are created using GitHub Gist and are publicly accessible for at least one month.
+
+
 
 ## Project Setup
 
