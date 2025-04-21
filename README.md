@@ -4,13 +4,14 @@ This is a responsive news portal project developed as part of the **SE3355 Web D
 
 ## Features
 
-- Dynamic news slider with 10 mock news items
+- Dynamic news slider with 10 mock news items (fetched from GitHub Gist)
 - Sticky ads on both sides of the screen (clickable and closable)
-- Real-time weather widget showing current conditions and 5-day forecast
-- Finance ticker bar with change indicators (up/down)
-- Static headline news box
+- Real-time weather widget showing current conditions and 5-day forecast (via Gist)
+- Finance ticker bar with change indicators (up/down) (via Gist)
+- Static headline news box (fetched from GitHub Gist)
 - Responsive design using Bootstrap 5
-- Mock data integration via [Mocky.io](https://designer.mocky.io/)
+- Mock data integration via public GitHub Gists
+
 
 ## Technologies Used
 
