@@ -15,7 +15,7 @@ fetch("https://gist.githubusercontent.com/emretoklu35/45d32321645f63569a71657956
       slide.className = `carousel-item ${isActive}`;
       slide.innerHTML = `
         <img src="${item.image}" class="d-block w-100" alt="${item.title}">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
           <h5>${item.title}</h5>
         </div>
       `;
