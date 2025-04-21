@@ -1,6 +1,5 @@
 // --- NEWS SLIDER (10 items) ---
-fetch("https://run.mocky.io/v3/e3c2b705-dd22-448b-8ed2-e2971eecd63d")
-  .then(res => res.json())
+fetch("https://gist.githubusercontent.com/emretoklu35/45d32321645f63569a716579560bcbe3/raw/5da8cf2c7e0baca2823eab7a80cadc58626ae786/haberler.json")  .then(res => res.json())
   .then(data => {
     const carouselInner = document.getElementById("carouselInner");
     const indicators = document.getElementById("carouselIndicators");
@@ -38,7 +37,7 @@ fetch("https://run.mocky.io/v3/e3c2b705-dd22-448b-8ed2-e2971eecd63d")
   .catch(err => console.error("Failed to fetch news data:", err));
 
 // --- STATIC NEWS ---
-fetch("https://run.mocky.io/v3/493a8916-acdd-4677-b7e1-da8b22f2784c")
+fetch("https://gist.githubusercontent.com/emretoklu35/6e819f735a179d92b66f97d1445a6dfe/raw/b27fb0946e49af66bfacaf6c35e39ea291240fcd/statikhaber.json")
   .then(res => res.json())
   .then(data => {
     document.getElementById("staticNewsImage").src = data.image;
@@ -47,7 +46,7 @@ fetch("https://run.mocky.io/v3/493a8916-acdd-4677-b7e1-da8b22f2784c")
   .catch(err => console.error("Failed to fetch static news:", err));
 
 // --- WEATHER DATA ---
-fetch("https://run.mocky.io/v3/e427363d-b058-425f-bc90-23deb3a241b4")
+fetch("https://gist.githubusercontent.com/emretoklu35/55da7de7f5d8fa95653a04dd65bb2374/raw/4e25ff8d50c8ae76a9ea7251601066bc3d6d08a4/havadurumu.json")
   .then(res => res.json())
   .then(data => {
     document.getElementById("currentTemp").innerText = data.current.temp;
@@ -69,7 +68,7 @@ fetch("https://run.mocky.io/v3/e427363d-b058-425f-bc90-23deb3a241b4")
   .catch(err => console.error("Failed to fetch weather data:", err));
 
 // --- FINANCIAL BAR ---
-fetch("https://run.mocky.io/v3/0c5f790b-9ad0-4dec-a98e-0ee0c2ee69a9")
+fetch("https://gist.githubusercontent.com/emretoklu35/61a9432106a22999490424d35debd74d/raw/3c760fe33c113fe2c1e43adf4378ebe7627077d1/finans.json")
   .then(res => res.json())
   .then(data => {
     const financeBar = document.getElementById("financeBar");
